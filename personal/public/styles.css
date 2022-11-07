@@ -1,0 +1,32 @@
+body{
+  background: red;
+  display: flex;
+  flex-direction: column;
+  margin: 25%;
+  margin-top: 0%;
+  border: 0%;
+}
+h3{
+  margin-top: 40px;
+}
+
+.name,.msg,.age{
+  width: 100%;
+  display: flex;
+}
+li{
+  border: 1px solid black;
+  width: 51.5%;
+}
+
+.strike{
+  text-decoration: line-through;
+}
+input{
+  width: 50%;
+  list-style: none;
+
+}
+button{
+  width: 51.5%;
+}
