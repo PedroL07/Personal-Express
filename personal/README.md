@@ -1,4 +1,4 @@
-![21 Savage](public/21savage.jpg)
+![Personal Calender](public/img.jpg)
 
 ## Installation
 
@@ -8,4 +8,5 @@
 ## Usage
 
 1. run `npm run savage`
-2. Navigate to `localhost:3000`
+2. Navigate to `localhost:4000`
+

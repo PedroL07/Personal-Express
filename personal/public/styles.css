@@ -1,32 +1,68 @@
-body{
-  background: red;
+body {
+  background-image: url(bckg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
-  margin: 25%;
+  margin: 30%;
   margin-top: 0%;
   border: 0%;
+  color: white;
+  font-family: "Space Mono", monospace;
 }
-h3{
+.hello {
+  background-color: rgba(255, 255, 255, 0.192);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-family: "Space Mono", monospace;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  font-family: "Space Mono", monospace;
+}
+h3 {
   margin-top: 40px;
 }
 
-.name,.msg,.age{
+.name,
+.msg,
+.age {
   width: 100%;
   display: flex;
 }
-li{
-  border: 1px solid black;
-  width: 51.5%;
+.apss {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.589);
+  border: 1px solid white;
 }
 
-.strike{
+.strike {
   text-decoration: line-through;
+  /* color: rgb(228 255 0); */
+  font-weight: bold;
 }
-input{
-  width: 50%;
-  list-style: none;
 
+input {
+  width: 90%;
+  padding: 0%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  font-size: 1.3rem;
 }
-button{
-  width: 51.5%;
+
+button {
+  width: 100%;
+  font-size: 1.2rem;
+  color: #00204f;
+  font-weight: bold;
+  
 }
